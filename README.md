@@ -49,3 +49,32 @@ The focus is on **decision-making under competition and uncertainty**, where Pac
 ## Project Structure
 multiagent/
 └── multiAgents.py # All implemented agents & algorithms
+
+
+
+---
+
+## Technologies & Concepts
+- Python
+- Artificial Intelligence
+- Adversarial Search
+- Game Theory
+- Minimax & Alpha-Beta Pruning
+- Expectimax & Probabilistic Modeling
+- Heuristic Evaluation Functions
+
+---
+
+## How to Run
+This repository contains **logic only**.
+
+To run the project:
+1. Download the official **UC Berkeley CS188 Pacman (Project 2)** framework
+2. Replace the framework’s `multiAgents.py` with the file from this repository
+3. Run Pacman using the framework commands
+
+Example:
+```bash
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=3
+python pacman.py -p AlphaBetaAgent -l smallClassic -a depth=3
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
